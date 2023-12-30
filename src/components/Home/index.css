@@ -1,0 +1,151 @@
+.con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home-container {
+  width: 80%;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.slider-container {
+  width: 100%;
+  box-sizing: content-box;
+}
+.offer-image {
+  width: 100%;
+}
+.popular-restaurants-heading {
+  color: #183b56;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.sort-options-container {
+  margin: 0px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.slider-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sort-icon {
+  width: 18px;
+  height: 12px;
+}
+.popular-restaurants-para {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+}
+.spinner {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sort-container {
+  display: flex;
+  align-items: center;
+}
+.hr {
+  background-color: #cbd2d9;
+  display: none;
+  margin-top: 5px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+.restaurants-list {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.select-sortby {
+  border: none;
+}
+.page-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  @media screen and (min-width: 768px) {
+    width: 40%;
+  }
+}
+.search-btn {
+  background-color: #ffcc00;
+  border: none;
+  height: 30px;
+  width: 10%;
+}
+.search {
+  height: 30px;
+  border: 2px solid #ffcc00;
+}
+.payment-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payment-para {
+  color: #64748b;
+  font-weight: 400;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pop-up {
+  position: relative;
+  background-color: #fff;
+}
+.failure-view {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.retry-btn {
+  background-color: #ffcc00;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}

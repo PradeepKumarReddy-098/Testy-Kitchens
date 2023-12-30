@@ -1,0 +1,173 @@
+.empty-cart-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 50px;
+}
+.order-now-btn {
+  border-radius: 8px;
+  border: none;
+  background: #f7931e;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.cart-view-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-container {
+  padding-left: 0px;
+  list-style: none;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  @media screen and (min-width: 568px) {
+    padding: 15px;
+    width: 80%;
+    background-color: hsl(216, 71%, 99%);
+    align-self: center;
+  }
+}
+.cart-items-list {
+  margin-top: 15px;
+}
+.cart-headings-container {
+  display: none;
+  @media screen and (min-width: 568px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.to-restantent {
+  text-decoration: none;
+}
+
+.cart-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  width: 33%;
+}
+.cart-btns-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  @media screen and (min-width: 568px) {
+    width: 33%;
+    justify-content: center;
+  }
+}
+.cart-lg-container {
+  display: none;
+  @media screen and (min-width: 568px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.cart-sm-container {
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 568px) {
+    display: none;
+  }
+}
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  gap: 10px 30px;
+}
+
+.img-name-container {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+.cart-quantity {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item-name-img {
+  display: none;
+  margin-left: 15px;
+  @media screen and (min-width: 568px) {
+    display: block;
+    text-align: center;
+  }
+}
+.item-name {
+  display: block;
+  padding-left: 10px;
+  @media screen and (min-width: 568px) {
+    display: none;
+  }
+}
+.increase-btn {
+  padding: 5px;
+}
+.decrease-btn {
+  padding: 5px;
+}
+.item-price {
+  width: 33%;
+  text-align: center;
+  color: #f7931e;
+}
+.cart-items {
+  list-style: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.cart-image {
+  width: 136px;
+  height: 100px;
+  border-radius: 8px;
+}
+.line {
+  border-top: 1px dashed #cbd2d9;
+}
+.total-amount-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.total-order-details {
+  width: 80%;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-btn {
+  border-radius: 8px;
+  background: #f7931e;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+}
+.payments-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-para {
+  color: #64748b;
+  font-weight: 400;
+}

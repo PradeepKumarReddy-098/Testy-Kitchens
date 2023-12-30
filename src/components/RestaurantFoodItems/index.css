@@ -1,0 +1,102 @@
+.restaurant-food-Items {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-spinner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-details-container {
+  background-image: url('https://res.cloudinary.com/dvhdil4k3/image/upload/v1697203367/Frame_279_qj9ayu.png');
+  background-size: cover;
+  padding-bottom: 18px;
+  @media screen and (min-width: 568px) {
+    padding: 20px;
+    padding-left: 40px;
+  }
+}
+
+.restaurant-banner {
+  display: flex;
+  color: #ffffff;
+}
+
+.restaurant-image {
+  width: 40%;
+  margin-right: 10px;
+  @media screen and (min-width: 568px) {
+    width: 25%;
+    margin-right: 20px;
+  }
+}
+.vertical-line {
+  width: 1px;
+  color: #ffffff;
+  height: 50px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.reviews-cost-container {
+  display: flex;
+  margin-top: 5px;
+  @media screen and (min-width: 568px) {
+    margin-top: 24px;
+  }
+}
+.food-items-container {
+  align-self: center;
+  width: 80%;
+  margin-top: 15px;
+}
+.food-items {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.food {
+  width: 90%;
+  margin: 10px;
+  @media screen and (min-width: 568px) {
+    width: 45%;
+  }
+}
+.food-details {
+  display: flex;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 568px) {
+    gap: 15px 40px;
+  }
+}
+.food-image {
+  width: 160px;
+  height: 100px;
+  margin-right: 16px;
+  @media screen and (min-width: 568px) {
+    width: 255px;
+    height: 150px;
+    margin-right: 20px;
+  }
+}
+.add-btn {
+  background-color: transparent;
+  border: 2px solid #ffa412;
+  border-radius: 6px;
+  padding: 5px;
+  width: 44px;
+  height: 24px;
+  color: #ffa412;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

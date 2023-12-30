@@ -1,0 +1,53 @@
+.food {
+  width: 90%;
+  margin: 10px;
+  @media screen and (min-width: 568px) {
+    width: 45%;
+  }
+}
+.food-details {
+  display: flex;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 568px) {
+    gap: 15px 40px;
+  }
+}
+.food-image {
+  width: 160px;
+  height: 100px;
+  margin-right: 16px;
+  @media screen and (min-width: 568px) {
+    width: 255px;
+    height: 150px;
+    margin-right: 20px;
+  }
+}
+.add-btn {
+  background-color: transparent;
+  border: 2px solid #ffa412;
+  border-radius: 6px;
+  padding: 5px;
+  width: 44px;
+  height: 24px;
+  color: #ffa412;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.increase-decrease-btn-container {
+  display: flex;
+  align-items: center;
+}
+.quantity-btn {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 3px;
+}
+.quantity {
+  margin-left: 12px;
+  margin-right: 12px;
+}

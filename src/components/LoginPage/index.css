@@ -1,0 +1,97 @@
+.login-page-container {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.login-sm-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.login-food-image {
+  align-self: flex-end;
+  width: 80%;
+  height: 40%;
+  @media screen and (min-width: 500px) {
+    width: 69%;
+    height: 60%;
+  }
+}
+.login-container {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 0px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 50px;
+  @media screen and (min-width: 768px) {
+    gap: 30px 70px;
+  }
+}
+.input-label {
+  color: #475569;
+  font-weight: 500;
+}
+.input-element {
+  background-color: #e2e8f0;
+  border: none;
+  padding-left: 10px;
+  border-radius: 2px;
+  height: 40px;
+  width: 312px;
+}
+.login-btn {
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 312px;
+  background-color: #f7931e;
+}
+.login-lg-container {
+  width: 100%;
+  height: 100%;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+.login-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login-info-container {
+  box-shadow: 0px 8px 40px 0px rgba(7, 7, 7, 0.08);
+  height: 523px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.login-logo-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.testy-kitchen-heading {
+  color: #f7931e;
+  font-style: italic;
+}
+.error-msg {
+  color: #ef4444;
+  font-weight: 400;
+}
+.side-image {
+  width: 100%;
+}

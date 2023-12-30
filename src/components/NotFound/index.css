@@ -1,0 +1,33 @@
+.Not-Found-container {
+  height: 100vh;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 50px;
+}
+.not-found-image {
+  width: 140px;
+  @media screen and (min-width: 768px) {
+    width: 269px;
+  }
+}
+.not-found-heading {
+  font-weight: 700;
+  color: #1e293b;
+}
+.not-found-para {
+  color: #475569;
+  text-align: center;
+}
+.go-home-page-btn {
+  color: #ffffff;
+  background-color: #f7931e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.link {
+  text-decoration: none;
+}
